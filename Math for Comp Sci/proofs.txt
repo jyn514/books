@@ -1,0 +1,42 @@
+Proposition: statement that must be either true or false
+ex: For every nonnegative integer n the value of n^2 + n + 41 is prime. (false)
+
+# less strict definitions
+Theorem: Important proposition proven true
+Lemma: Preliminary proposition proven true
+Corrollary: Proposition which follows easily from theorem
+
+Axiomatic method
+    Start from as few axioms as possible and derive the rest
+    Proofs are series of logical deductions
+    Classic example is Euclidian geometry
+    Must state ahead of time which theorems are assumed
+    
+Deductions
+                      antecedents         consequent
+    modus podens - if a implies b and a . b.
+    transitive property - if a implies b and b implies c. a implies c
+    contraposition - if ¬a implies ¬b, b implies a.
+    
+Types of proofs
+    
+    Implication: If a, then b
+        Assume a. Show why b follows.
+    
+    Prove the contrapositive: if not(b), then not(a)
+        Assume ¬b. Show why ¬a follows.
+    
+    If and only if: logically equivalent
+        Show a implies b
+        Show b implies a
+        
+    Proof by cases:
+        Break problem into cases. Prove each seperately.
+        
+    Proof by contradiction:
+        Assume the opposite. Show a logical contradiction.
+        
+Errors:
+    Circular reasoning
+    Unjustified conclusions
+    Leave proofs 'to the reader'

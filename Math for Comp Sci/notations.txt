@@ -1,0 +1,12 @@
+# see https://en.wikipedia.org/wiki/List_of_mathematical_symbols
+
+≡ - congruence
+∞ - infinity (or lemniscate)
+a, b, c - constants
+x, y, z - unknowns
+Σ - summation (or sigma)
+i - sqrt(-1)
+e - base of natural log
+ln - natural log (or log base e)
++ - addition or disjoint union, where disjoint union is the union of two sets where a record is kept of from which set a term originated
+- - subtraction, negative, or complement, where complement (A, B) is all elements of A not contained in be

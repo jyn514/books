@@ -1,0 +1,67 @@
+1. There is a surprize quiz next week. It cannot be on Friday because then it would not be a surprise. It cannot be on Thursday because then it would not be a surprise. . . . There cannot be a surprise quiz next week.
+    False because quiz is given regardless of whether or not it is a surprise
+    
+2. a^2 + b^2 = c^2 : a geometric proof
+    (skipped for now)
+
+Prove the following are incorrect proofs.
+
+3. 1 = sqrt(1) = sqrt(-1 * -1) = sqrt(-1) * sqrt(-1) = -1
+   a) prove this is false
+       sqrt(a*b) = sqrt(a) * sqrt(b) is only true for non-negative numbers
+       source: https://en.wikipedia.org/wiki/Square_root#Properties_and_uses
+   b) prove that if -1=1 2=1   
+       2 = 2 + 1 - 1 = 2 + (-1) - 1 = 0
+       2! = 2
+       (0)! = 1
+       ∴ 2 = 1
+   c) Prove that sqrt(a*b) = sqrt(a) * sqrt(b) for all positive numbers.
+       first step only works if sqrt(a)*sqrt(b) is positive i.e. a and b are non-negative numbers
+       sqrt(a) * sqrt(b) = sqrt((sqrt(a) * sqrt(b)) ^ 2) = sqrt(sqrt(a)^2 * sqrt(b)^2) = sqrt(a*b)     □
+       
+4. a) 1/8 > 1/4
+    3 > 2
+    3 log (1/2) > 2 log (1/2)
+    log (1/8) > log (1/4)
+    1/8 > 1/4
+   
+    1/2 < 1 ∴ log(1/2) is < 0 ∴ greater-than should now be less-than
+    
+    b) 1 cent = 1 dollar
+    $.01 = ($.1)^2 = (10¢)^2 = 100¢
+    
+    False: after step 3, has units of cents^2 = (1/100 dollars)^2
+    Therefore 10¢^2 = 100 / 100000 dollars = 1/100 dollars
+    
+    c) a = b
+        a^2 = ab
+        a^2 - b^2 = ab - b^2
+        (a-b)(a+b) = (a-b)b
+        a+b=b
+        a = 0
+        
+        False: If a=b then a-b = 0 and division by 0 is undefined
+       
+   d) (a + b)/2 ≥ sqrt(ab)    algebraic mean ≥ geometric mean (known to be true)
+       a + b ≥ 2 sqrt(ab)
+       a^2 + 2ab + b^2 ≥ 4ab
+       a^2 - 2ab + b^2 ≥ 0
+       (a-b)^2 ≥ 0
+       QED 
+       
+       i. prove this wrong
+           only holds if a ≥ b.
+           (a-b)^2 ≥ 0
+           a-b ≥ 0
+           a ≥ b
+           
+       ii. make it right
+           assume a < b
+           a^2 - 2ab + b^2 ≥ 0
+           (b-a)^2 ≥ 0
+           b-a ≥ 0
+           b ≥ a (true by definition, above)
+           QED
+           
+5. Prove that log_7 n is either an integer or irrational, given n ∈ ℕ.
+    
